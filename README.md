@@ -1,5 +1,5 @@
 This django app intended for writing HTTP log to database and/or watch last user activity.
-
+This fork support Django 3.2 and above
 Features:
 - DB router for writing logs to another database.
 - Filters for ignoring some queries by URL, HTTP methods and response codes.
