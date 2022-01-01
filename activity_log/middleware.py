@@ -24,8 +24,6 @@ def get_extra_data(request, response, body):
 
 class ActivityLogMiddleware(MiddlewareMixin):
     def process_request(self, request):
-        print(dir(request.user))
-        print(dir(self))
         request.saved_body = request.body
         print(request)
         if conf.LAST_ACTIVITY and request.user.is_authenticated:
