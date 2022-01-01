@@ -8,8 +8,8 @@ Features:
 - Autocreation log DB (for postgresql)
 
 Install:
-$ pip install git+https://github.com/tgowthambits/django-user-activity-log
-$ pip install django-user-activity-log
+ - pip install git+https://github.com/tgowthambits/django-user-activity-log
+ - pip install django-user-activity-log
 
 settings.py:
 
